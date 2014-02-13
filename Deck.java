@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class Deck {
-	
+
 	public final static int MAX_CARDS_IN_DECK = 52;
 
 	private ArrayList<Card> cards;
@@ -79,5 +79,8 @@ public class Deck {
 				return 0;
 			}
 		});
+	}
+	public void makeEmpty() {
+		cards.clear();
 	}
 }

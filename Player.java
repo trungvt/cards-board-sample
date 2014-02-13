@@ -3,4 +3,8 @@ public class Player {
 	public String PlayerName() {
 		return playerName;
 	}
+
+	public Player(String _playerName) {
+		this.playerName = _playerName;
+	}
 }
